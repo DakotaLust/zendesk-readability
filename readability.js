@@ -69,7 +69,7 @@ difficultyExplainWindow.style.position = 'absolute';
 difficultyExplainWindow.style.padding = '5px';
 difficultyExplainWindow.style.maxWidth = '300px';
 difficultyExplainWindow.style.width = '250px';
-articlePage.prepend(difficultyExplainWindow);
+articlePage.append(difficultyExplainWindow);
 difficultyElement.addEventListener('mouseover', (event) => {
     var level = readingDifficulty;
     difficultyExplainWindow.style.top = event.pageY - 30 + 'px';
